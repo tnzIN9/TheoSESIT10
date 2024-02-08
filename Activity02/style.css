@@ -1,21 +1,123 @@
 *{
-    color: red;
-    background-color: pink;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
 header{
-    width: 100vw;
+    position: fixed;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
     height: 50px;
-    background-color: rgb(187, 28, 28);
-
-{
-    text-decoration: none;
-
-    :houver{
-
-        text-decoration: underline;
-    }
-        
-    
+    background-color: darkorchid;
+    z-index: 999;
 }
+ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 6px;
+}
+
+a{
+    color: #c40c0c;
+    opacity: 0.8;
+    font-size: 1.6rem;
+    text-decoration: none;
+    transition: all 200ms linear;
+}
+
+a:hover{
+    opacity: 1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.perfil01{
+    padding-top: 50px;
+    width: 100%;
+    height: 600px;
+    color: chartreuse;
+    display: flex;
+    background-image: image-set("https://img.freepik.com/fotos-gratis/fundo-do-espaco-cosmo-realista-da-noite-estrelada-e-estrelas-brilhantes-via-lactea-e-galaxia-colorida-de-poeira-estelar_1258-154645.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    gap: 20px;
+    background-repeat: no-repeat;
+}
+
+.perfil02{
+    padding-top: 50px;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(62, 53, 53);
+}
+
+.tecno{
+    padding-top: 50px;
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+}
+
+.contactDiv{
+    padding-top: 50px;
+    padding-bottom:50px;
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.leftContact{
+    background-color: red;
+    width: 600px;
+    height: 500px;
+}
+.rightContact{
+    background-color: blue;
+    width: 600px;
+    height: 500px;
+}
+
+.rel{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border-radius:100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.img01{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    transition: all 100ms linear;
+}
+
+.img01:hover{
+    transform: scale(1.2);
+    transition: all 200ms linear;
+}
+
