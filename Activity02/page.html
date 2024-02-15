@@ -20,41 +20,62 @@
         </ul>
     </header>
     <div class="perfil01" id="perfil01">
-        <div>
+        <div class="divleft">
             <div class="rel">
                 <img
                   class="img01" 
-                  src="https://img.quizur.com/f/img62dd623165f398.77856414.jpg?lastEdited=1658675835"
-                  alt="Paisagem com animal">
+                  src="	https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt1ChdMhM67y-UOKiOKLfRVOyTk97nJyJ9wRbJUWAuAQ&s"
+                  alt="Foto de perfil">
             </div>
         </div>
-        <div>
-            <h1>Yuri M</h1>
-            <p>Oi eu sou o yuri eu faço 5 dígitos por mês apenas com meu celular, quer saber como?
+        <div class="divright">
+            <h1>Theo Rubim</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus doloribus repellat recusandae mollitia qui maiores illo! Provident tempora sunt eius exercitationem aperiam optio ea illo debitis! Mollitia, quidem illum. Facilis!
             </p>
         </div>
     </div>
     <div class="perfil02" id="perfil02">
-        <div>
+        <div class ="divleft">
+            <div class="rel2">
+                <img
+                    class="img01"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt1ChdMhM67y-UOKiOKLfRVOyTk97nJyJ9wRbJUWAuAQ&s"
+                    alt="Foto de Perfil">
+            </div>  
+    
+                    
 
         </div>
-        <div>
-            <h1>Nicola onofri</h1>
-            <p> Hivaitomanocu</p>
+        <div class="divright">
+            <h1>Vinicius Vazquez</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda in iste quas ut architecto. Incidunt, recusandae saepe, officia nisi blanditiis iure aut temporibus similique esse ullam delectus repellendus, nobis error.</p>
         </div>
     </div>
     <div class="tecno" id="tecnologia">
-        <h1>tecno</h1>
+        <h1>tecnologia</h1>
     </div>
     <div class="contactDiv" id="contact">
         <div class="leftContact">
             <h2>Contato</h2>
             <p>Mande aqui uma mensagem</p>
-        </div>
+            </div>
+        <div>
+            <label for="mensagem">Mensagem:</label>
+            <textarea type="text" id="mensagem"><textarea>
+             </div>
+        <div>
+            <button onclick="conferirMensagemWhatsapp()">Conferir dados</button>
+
+            </div>
         <div class="rightContact">
-            <p>ao contrario da esquerda</p>
+            <div>
+                <p>Nome: <span id="confNome"></span></p>
+                <p>Mensagem: <span id="confMsg"></span></p>
+            </div>
+             <button onclick="enviar()">ZAP</button>
         </div>
         
     </div>
 </body>
 </html>
+
