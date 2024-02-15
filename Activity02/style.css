@@ -17,7 +17,7 @@ header{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 100%;
     height: 50px;
-    background-color: darkorchid;
+    background-color: rgb(0, 0, 0);
     z-index: 999;
 }
 ul{
@@ -30,7 +30,7 @@ ul{
 }
 
 a{
-    color: #c40c0c;
+    color: #ffffff;
     opacity: 0.8;
     font-size: 1.6rem;
     text-decoration: none;
@@ -45,14 +45,11 @@ a:hover{
 
 
 .perfil01{
-    padding-top: 50px;
+    padding-top: 20px;
     width: 100%;
     height: 600px;
-    color: chartreuse;
+    color: rgb(0, 0, 0);
     display: flex;
-    background-image: image-set("https://img.freepik.com/fotos-gratis/fundo-do-espaco-cosmo-realista-da-noite-estrelada-e-estrelas-brilhantes-via-lactea-e-galaxia-colorida-de-poeira-estelar_1258-154645.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -60,20 +57,43 @@ a:hover{
     background-size: cover;
     gap: 20px;
     background-repeat: no-repeat;
+
 }
 
+.divleft{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.divright{
+    width: 40%;
+}
 .perfil02{
-    padding-top: 50px;
+    padding-top: 20px;
     width: 100%;
     height: 600px;
     background-color: rgb(62, 53, 53);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    gap: 20px;
+    background-repeat: no-repeat;
+    
 }
 
 .tecno{
     padding-top: 50px;
     width: 100%;
     height: 600px;
-    background-color: blueviolet;
+    background-color: rgb(255, 20, 165);
 }
 
 .contactDiv{
@@ -113,11 +133,33 @@ a:hover{
     position: absolute;
     width: 500px;
     height: 500px;
-    transition: all 100ms linear;
+    transition: all 500ms linear;
+    transform:scale(1.2)
 }
 
 .img01:hover{
-    transform: scale(1.2);
-    transition: all 200ms linear;
+    transform: scale(2.0);
+    transition: all 500ms linear;
 }
 
+.rel2{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: black;
+}
+
+.img02{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    transition: all 500ms linear;
+    transform:scale(1,2);
+}
+
+.img02.hover{
+    transform: scale(2.0);
+    transition: all 500ms linear;
+}
