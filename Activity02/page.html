@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<script  src="script.js"></script>
 </head>
 <body>
     <header>
@@ -41,41 +42,64 @@
                     class="img01"
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt1ChdMhM67y-UOKiOKLfRVOyTk97nJyJ9wRbJUWAuAQ&s"
                     alt="Foto de Perfil">
-            </div>  
-    
-                    
+            </div>    
+            
+            
 
         </div>
         <div class="divright">
             <h1>Vinicius Vazquez</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda in iste quas ut architecto. Incidunt, recusandae saepe, officia nisi blanditiis iure aut temporibus similique esse ullam delectus repellendus, nobis error.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, delectus, obcaecati hic fugit tempora deleniti aspernatur quisquam inventore architecto quam esse, eveniet rerum. Enim nemo commodi officia unde, facere tempora!</p>
         </div>
     </div>
     <div class="tecno" id="tecnologia">
         <h1>tecnologia</h1>
+        <div class="tecno2">
+           <div class="htm2">
+               <img class="img3" src="oi.png" alt="">
+               <p class="p1">A Linguagem de Marcação de Hipertexto (HTML) é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativos online. Um hipertexto é um texto usado para fazer referência a outros textos, enquanto uma linguagem de marcação é composta por uma série de marcações que dizem para os servidores da web qual é o estilo e a estrutura de um documento.</p>
+           </div> 
+            <div class="htm2">
+                <img class="img3" src="a.png" alt="">
+                <p class="p1">CSS, ou Cascading Style Sheets, é uma linguagem de estilo utilizada para controlar a apresentação e o layout de documentos HTML. Define cores, fontes, espaçamento, posicionamento e outros aspectos visuais de elementos web, garantindo uma aparência consistente e atraente em páginas da internet e aplicativos online.</p>
+            </div> 
+            <div class="htm2">
+                <img class="img3" src="io.png" alt="">
+                <p class="p1"> JavaScript é uma linguagem de programação de alto nível, interpretada pelos navegadores web. Usada para criar interatividade dinâmica em páginas da internet, permite manipular elementos HTML, responder a eventos do usuário, validar formulários e muito mais. É essencial para desenvolver aplicativos web interativos e responsivos.
+                    </p>
+            </div> 
+        
+            
+        </div>
     </div>
     <div class="contactDiv" id="contact">
         <div class="leftContact">
-            <h2>Contato</h2>
-            <p>Mande aqui uma mensagem</p>
+            <div>
+                <h2>Contato</h2>
+                <p>Aqui você pode me mandar uma mensagem.</p>
             </div>
-        <div>
-            <label for="mensagem">Mensagem:</label>
-            <textarea type="text" id="mensagem"><textarea>
-             </div>
-        <div>
-            <button onclick="conferirMensagemWhatsapp()">Conferir dados</button>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+            </div>
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea type="text" id="mensagem"></textarea>
+            </div>
+            <button onclick="conferirMensagemWhatsApp()">Conferir dados</button>
+        </div>
 
-            </div>
         <div class="rightContact">
             <div>
                 <p>Nome: <span id="confNome"></span></p>
                 <p>Mensagem: <span id="confMsg"></span></p>
             </div>
-             <button onclick="enviar()">ZAP</button>
+            <button onclick="enviar()">ZAP</button>
         </div>
-        
     </div>
+
 </body>
 </html>
+
+
 
